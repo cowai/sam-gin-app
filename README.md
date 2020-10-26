@@ -4,9 +4,9 @@
 ## TODO
 - 簡易的なAPIを作る
 - ページを表示→APIからデータをFetchできるか確認する
-- DynamoDB Local の用意
-- DynamoDB Local へのデータ書き込み（AIPI経由）
-- DynamoDB Local へのデータ読み込み（AIPI経由）
+- LocalStack の用意
+- LocalStack へのデータ書き込み（AIPI経由）
+- LocalStack へのデータ読み込み（AIPI経由）
 - Makefileを素敵にする
 - ディレクトリ構成を素敵にする
 - VSCode でデバッグできるようにする
