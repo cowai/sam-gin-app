@@ -29,8 +29,11 @@ func handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.API
 		}
 
 		r.SetHTMLTemplate(t)
-		r.GET("/page", func(c *gin.Context) {
-			c.HTML(http.StatusOK, "/index.tmpl", gin.H{})
+		r.GET("/page/:type/:name", func(c *gin.Context) {
+			c.HTML(http.StatusOK, "/"+c.Param("type")+"/index.tmpl", gin.H{
+				"type": c.Param("type"),
+				"name": c.Param("name"),
+			})
 		})
 
 		r.GET("/api/pet/:id", func(c *gin.Context) {
