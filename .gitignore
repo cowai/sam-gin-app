@@ -34,5 +34,6 @@
 # End of https://www.toptal.com/developers/gitignore/api/go,vscode
 
 
-### SAM ###
+### Custom Settings
 .aws-sam/*
+statik/*

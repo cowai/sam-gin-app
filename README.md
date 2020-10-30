@@ -2,7 +2,6 @@
 - html テンプレートを読めるようにする
 
 ## TODO
-- 簡易的なAPIを作る
 - ページを表示→APIからデータをFetchできるか確認する
 - LocalStack の用意
 - LocalStack へのデータ書き込み（AIPI経由）
@@ -20,3 +19,4 @@
 - https://future-architect.github.io/articles/20200227/
 
 ## Done
+- 簡易的なAPIを作る
