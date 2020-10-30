@@ -1,12 +1,11 @@
 ## Next Task
-- html テンプレートを読めるようにする
+- Makefile を素敵にする
+- ページを表示→APIからデータをFetchできるか確認する
 
 ## TODO
-- ページを表示→APIからデータをFetchできるか確認する
 - LocalStack の用意
 - LocalStack へのデータ書き込み（AIPI経由）
 - LocalStack へのデータ読み込み（AIPI経由）
-- Makefileを素敵にする
 - ディレクトリ構成を素敵にする
 - VSCode でデバッグできるようにする
 - ターミナルからAWSへデプロイする
@@ -20,3 +19,4 @@
 
 ## Done
 - 簡易的なAPIを作る
+- html テンプレートを読めるようにする
